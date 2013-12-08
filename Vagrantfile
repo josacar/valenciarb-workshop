@@ -2,6 +2,16 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
+  # Shell provisioner
+  $script = <<-SCRIPT
+  echo Provisining a machine in valencia.rb...
+  date > /etc/vagrant_provisioned_at
+  SCRIPT
+
+  # config.vm.provision "shell", inline: "echo Hello"
+  # config.vm.provision "shell", $script
+  config.vm.provision "shell", path: "script.sh"
+
   config.vm.define 'debian' do  |config|
     config.vm.provider :virtualbox
     config.vm.box = 'debian'
