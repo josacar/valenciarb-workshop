@@ -1,5 +1,12 @@
 ## Commands
 
 ```
-vagrant init debian https://dl.dropboxusercontent.com/u/197673519/debian-7.2.0.box
+vagrant halt
+mkdir debian
+mv Vagrantfile debian
+mv .vagrant/machines/default debian
+mkdir centos
+cd centos
+vagrant init centos http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210-nocm.box
+vagrant halt
 ```
