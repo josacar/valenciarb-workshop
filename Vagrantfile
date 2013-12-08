@@ -3,14 +3,16 @@
 
 Vagrant.configure("2") do |config|
   config.omnibus.chef_version = "10.28.2"
-  # config.berkshelf.enabled = true
+  config.berkshelf.enabled = true
   # Chef-solo provisioner
   config.vm.provision :chef_solo do |chef|
-    chef.cookbooks_path = ["cookbooks"]
     chef.roles_path = "roles"
     chef.data_bags_path = "data_bags"
     chef.add_recipe 'apt'
     chef.add_recipe 'rbenv::user'
+    chef.add_recipe 'git'
+    chef.add_recipe 'redis'
+    chef.add_recipe 'memcached'
   end
 
   # config.vm.network :forwarded_port, guest: 80, host: 8080

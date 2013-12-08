@@ -1,0 +1,53 @@
+{
+  "sources": {
+    "apt": {
+      "locked_version": "2.3.0"
+    },
+    "rbenv": {
+      "locked_version": "0.7.3",
+      "git": "git://github.com/fnichol/chef-rbenv.git",
+      "ref": "9afb4e5da2e6212504a12de3bbbd410cd96100f6"
+    },
+    "git": {
+      "locked_version": "2.9.0"
+    },
+    "redis": {
+      "locked_version": "0.0.4",
+      "git": "git://github.com/ctrabold/chef-redis.git",
+      "ref": "e3a89f34d0f5b81867ae9e07a9404ac89e1ff61c"
+    },
+    "memcached": {
+      "locked_version": "1.7.0"
+    },
+    "ruby_build": {
+      "locked_version": "0.8.0"
+    },
+    "java": {
+      "locked_version": "1.17.2"
+    },
+    "windows": {
+      "locked_version": "1.11.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "aws": {
+      "locked_version": "1.0.0"
+    },
+    "dmg": {
+      "locked_version": "2.0.8"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "runit": {
+      "locked_version": "1.5.3"
+    },
+    "yum": {
+      "locked_version": "3.0.2"
+    },
+    "yum-epel": {
+      "locked_version": "0.2.0"
+    }
+  }
+}

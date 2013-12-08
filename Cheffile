@@ -1,8 +1,0 @@
-# encoding: utf-8
-
-site 'http://community.opscode.com/api/v1'
-
-cookbook "apt"
-cookbook "rbenv", {:github=>"fnichol/chef-rbenv"}
-cookbook "git", {}
-cookbook "redis", {:github=>"ctrabold/chef-redis"}
