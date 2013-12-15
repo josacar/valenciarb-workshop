@@ -13,6 +13,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe 'git'
     chef.add_recipe 'redis'
     chef.add_recipe 'memcached'
+    chef.add_recipe 'myvim'
   end
 
   # config.vm.network :forwarded_port, guest: 80, host: 8080

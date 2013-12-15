@@ -19,6 +19,9 @@
     "memcached": {
       "locked_version": "1.7.0"
     },
+    "myvim": {
+      "path": "./cookbooks/myvim"
+    },
     "ruby_build": {
       "locked_version": "0.8.0"
     },

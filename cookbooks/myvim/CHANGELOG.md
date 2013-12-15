@@ -1,11 +1,11 @@
-my-first-cookbook CHANGELOG
-===========================
+myvim CHANGELOG
+===============
 
-This file is used to list changes made in each version of the my-first-cookbook cookbook.
+This file is used to list changes made in each version of the myvim cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of my-first-cookbook
+- [your_name] - Initial release of myvim
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
